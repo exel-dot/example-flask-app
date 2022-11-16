@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 import os
 
 engine = create_engine(
-    os.environ.get("POSTGRES_DB","sqllite:///./test.db")
+    os.environ.get("POSTGRES_DB","sqlite:///./test.db")
 
 )
 
